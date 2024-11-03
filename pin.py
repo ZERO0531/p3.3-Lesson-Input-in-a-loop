@@ -1,3 +1,17 @@
+PIN = "99999"
+
+print("WELCOME")
+entry = input("ENTER YOUR PIN: ")
+
+while entry != PIN:
+    print("INCORRECT PIN. TRY AGAIN.")
+    entry = input("ENTER YOUR PIN: ")
+else: 
+  print("PIN ACCEPTED. YOU NOW HAVE ACCESS TO YOUR ACCOUNT.")
+
+
+
+
 # 1. How is a while loop similar to an if statement?
 # Both can use "AND, OR, NOT" to combine conditions.
 # 2. How is a while loop different from an if statement?
