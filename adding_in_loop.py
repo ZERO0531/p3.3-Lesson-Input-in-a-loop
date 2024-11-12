@@ -4,7 +4,7 @@ total = 0
 while True:
 # Ask user for number
     answer = input("Number: ")
-    if anwer = 0: 
+    if answer == 0: 
         print(f"The total is {total}.")
     else: 
 # Add number to total
