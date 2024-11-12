@@ -4,7 +4,7 @@ total = 0
 while True:
 # Ask user for number
     answer = input("Number: ")
-    quantity = int(input())
+    total = int(input())
     if answer == 0: 
         print(f"The total is {total}.")
     else: 
